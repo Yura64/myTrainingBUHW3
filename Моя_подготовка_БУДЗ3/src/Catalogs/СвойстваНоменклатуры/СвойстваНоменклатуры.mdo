@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d33d925c-927f-41af-9765-4ec489e4ae63">
+  <producedTypes>
+    <objectType typeId="b3527122-4c58-4185-8814-4e7c2bf5830f" valueTypeId="d4a296ce-2855-4cb3-ad15-24c773c91442"/>
+    <refType typeId="bd1a4c0a-19cc-4706-9ca6-b255eca1e3a6" valueTypeId="09761ef7-d8c7-4554-8ae4-b04cca6488e5"/>
+    <selectionType typeId="122da5f9-4944-4c4b-b914-b5c93879f913" valueTypeId="77652c0c-a816-4891-887f-ccc4c4d48588"/>
+    <listType typeId="4b02f68c-78ec-4c58-8cef-064232a3d649" valueTypeId="bb7dddad-5936-40da-9936-b80de1c75984"/>
+    <managerType typeId="426b187d-fa65-4951-90fe-4d788434c12d" valueTypeId="6d873d6e-3981-4940-905c-4d190a293d99"/>
+  </producedTypes>
+  <name>СвойстваНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СвойстваНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СвойстваНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <characteristics>
+    <characteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</characteristicTypes>
+    <keyField>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Ref</keyField>
+    <typesFilterField>-1</typesFilterField>
+    <typesFilterValue xsi:type="core:UndefinedValue"/>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ЗначенияСвойствОбъектов</characteristicValues>
+    <objectField>InformationRegister.ЗначенияСвойствОбъектов.Dimension.НаборСвойств</objectField>
+    <typeField>InformationRegister.ЗначенияСвойствОбъектов.Dimension.ВидСвойства</typeField>
+    <valueField>InformationRegister.ЗначенияСвойствОбъектов.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Свойство номенклатуры</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
