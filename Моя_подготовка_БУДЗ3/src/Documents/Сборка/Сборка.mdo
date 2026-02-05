@@ -103,24 +103,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5796a436-1347-475b-a026-6a24f8c45c20">
-    <name>тестEDT</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тест EDT</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <tabularSections uuid="739c4e0f-90e6-43f4-8115-196b7bfd3e9f">
     <producedTypes>
       <objectType typeId="907452a3-251c-4afa-832c-04aca1a668e1" valueTypeId="017b19ae-6412-4133-b2e3-4114dec3e9da"/>
