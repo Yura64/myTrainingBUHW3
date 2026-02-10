@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2a265e9-a95b-4647-b9c9-f00c42b12919">
+  <producedTypes>
+    <objectType typeId="4f610760-046b-4714-9315-413a612b3d4c" valueTypeId="7da220f9-7b82-41b9-a49a-9dd9246f6e97"/>
+    <refType typeId="7fef2dda-5ee0-4a37-b969-072bfae05422" valueTypeId="dfb3cb04-3786-4d79-b0ea-3da79a01e916"/>
+    <selectionType typeId="265ec030-b76d-49aa-825d-47f7032e7414" valueTypeId="4f60a8e3-cb44-4150-a9db-98432eb690ef"/>
+    <listType typeId="68482d08-ece4-4691-bb71-65228541df56" valueTypeId="ba9ff061-06bf-4095-af5e-cb91f4950972"/>
+    <managerType typeId="51667ff4-692f-4d72-bcdc-70d865e59559" valueTypeId="e1a1ff0d-b3a4-41df-a1d2-ce3303bf7c8e"/>
+  </producedTypes>
+  <name>Операция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Операция.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Операции</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Операция.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="efaa4819-1220-4f98-84c8-357f91dd39fe">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
